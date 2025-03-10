@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'TT'; 
+	src: local("TT"),
+        local("TT"),
+        url("fonts/TT.ttf") format("ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212;
+}
+
+.output {
+    font-family: 'TT';
+    position: relative;
+    top: -200px;
+    left: -280px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 7vh;
+}
+
+#logo {
+    align-items: center;
+    position: relative;
+    top: -90px;
+    width: 80vh;
+
+}
